@@ -1,0 +1,158 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+/*Header section */
+header{
+    background-color:skyblue;
+    height: 100px;
+}
+
+header nav{
+    background-color: skyblue;
+}
+/*Navigation Section*/
+nav{
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+   float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    margin-top: 40px;
+    padding: 5px;
+}
+nav ul li a{
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+/* Hovering */
+a:hover{
+    background: gray;
+}
+
+/*Company introduction section
+start from here
+*/
+.intro {
+    margin-left: 20px;
+    margin-top: 25px;
+}
+/* We have put background image
+by using class name main-page in which we used . symbol to call class*/
+.main-page {
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    margin: 5px;
+    align-content: center;
+    margin-top: 40px;
+    margin-right: 40px;
+    
+}
+
+
+ .main-text h1 {
+    line-height: 1.1;
+    font-weight: 600;
+    margin: 6px 0 10px;
+} */
+
+.main-text p {
+    color: hwb(180 3% 97%);
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* Highest selling product section */
+.container-portfolio{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, auto));
+    gap: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+.box{
+    padding: 20px;
+    box-shadow: 5px 30px 56px gray;
+    border-radius: 10px; 
+    transition: all .35s ease;
+}
+.box:hover{
+    transform: translateY(-5px);   
+}
+.box img{
+    width: 200px;
+    height: 200px;
+}
+.Higest-selling{
+    margin-top: 200px;
+}
+/* New arrival secction*/
+.new-arrival-printer{
+    padding: 20px;
+    box-shadow: 5px 30px 56px gray;
+    border-radius: 10px;
+    transition: all .35s ease;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.new-arrival{
+    margin-top: 100px;
+}
+/* hover in new arrival printer*/
+.new-arrival-printer:hover{
+    transform:translateY(-5px);
+}
+
+.new-arrival-printer img{
+    width: 200px;
+    height: 200px;
+}
+.new-arrival-printer{
+    cursor: pointer;
+}
+
+/* All page Explanation  */
+.Details{
+    margin-top: 80px;
+    margin-left: 40px;
+    
+}
+.Explanation{
+    margin-top: 200px;
+}
+/* footer section*/
+footer{
+    background-color: orange;
+    height: 200px;
+    margin-top: 50px;
+}
+
+footer img{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+ footer p b{
+    margin-left: 10px;
+ }
+
+.FollowUs{
+    margin-right: 20px;
+}
+#rotateImage {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    transition: transform 0.5s ease; /* Add a transition for smooth rotation */
+  }

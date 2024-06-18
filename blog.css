@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/*Header section */
+header{
+    background-color:skyblue;
+    height: 100px;
+}
+header nav{
+    background-color: skyblue;
+}
+nav{
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-top: 40px;
+    padding: 5px;
+}
+
+nav ul li a{
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+a:hover{
+    background: gray;
+}
+
+
+/*Company logo*/
+.intro{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/*Technology image*/
+.technology-image{
+    margin-top: 20px;
+    margin-left: 500px;
+}
+.technology{
+    margin-top: 20px;
+}
+
+#span{
+    display: none;
+}
+
+/*Footer Section*/
+footer{
+    background-color: orange;
+    height: 200px;
+    margin-top: 50px;
+}
+
+footer img{
+    margin-top: 1%;
+    margin-left: 10px;
+}
+ footer p b{
+    margin-left: 10px;
+ }
+
+.FollowUs{
+    margin-right: 20px;
+}
+
+#more {
+    display: none;}
