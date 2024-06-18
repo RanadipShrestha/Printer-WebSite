@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Artistic Printer</title>
+    <link rel="stylesheet" href="../css/style.css"/>
+    <header>
+      <h1 align="center">Artistic Printer</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="product.html">Product</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+  </head>
+  <body>
+    <!------------------Company Introduction----------------------->
+    <div class="intro">
+      <table width="500px">
+        <tr>
+          <td align="center">
+            <img src="../images/logo.png" alt="company logo" height="80px">
+            <h1>Artistic Printer</h1>
+            <h5>WELLCOME TO ARTISTIC PRINTER</h5>
+            <br/>
+            <p><b><i>We offer a wide range of printers to designed your every
+                  need. Whether you're a home user, a small business, or a large
+                  enterprise, we strive to provide reliable, efficient, and
+                  cost-effective printer solutions.</i></b></p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <section class="main-page">
+      <div class="main-text" align="center">
+        <h2>Winter Discount</h2>
+        <img id="rotateImage" src="../images/Anycubin Kobra 2 3D printer.png" alt="Anycubin Kobra 2 3D printer."/>
+        <button type="button" id="rotateButton">View</button>
+        <h4 id="myHeading">Anycubin Kobra 2 3D printer</h4>
+        <h5>RS: 62,999.00</h5>
+        <h6><del>Rs:63,830.00</del></h6>
+        <br/>
+        <button type="button" id="button"><a href="./product.html">BUY</a></button>
+
+        <script>
+          // Get the image element by its ID
+          var imageToRotate = document.getElementById("rotateImage");
+          var rotateButton = document.getElementById("rotateButton");
+          var rotationAngle = 0;
+
+          // Rotate the image by a specified angle (in degrees)
+          function rotateImage() {
+            rotationAngle += 90; // Increase the rotation angle by 45 degrees each time
+            imageToRotate.style.transform = "rotate(" + rotationAngle + "deg)";
+          }
+
+          /* Attach the rotateImage function 
+                    to the button click event*/
+          rotateButton.addEventListener("click", rotateImage);
+        </script>
+      </div>
+    </section>
+    <br/>
+
+<!-------------------------   Highest selling product list------------------------->
+    <div class="Higest-selling" id="Highest">
+      <h1 align="center">Highest Selling Printers</h1>
+      <div class="container" style="padding: 50px">
+        <div class="box">
+          <img src="../images/Pantum M7102DW Multifuncation Monochron.jpg" alt="Pantum M7102DW Multifuncation Monochron"/>
+          <h4>Pantum M7102DW Multifuncation Monochron Laser Printer</h4>
+          <br/>
+          <p>Rs:31,999.00</p>
+          <br/>
+          <p><del>RS: 33,000.00</del></p>
+          <br />
+          <button type="button" id="button"> <a href="./product.html">BUY</a> </button>
+        </div>
+        <div class="box">
+          <img src="../images/Canon MG2570S.png" alt="Canon MG2570S"/>
+          <h4>Canon MG2570S 3 In 1 Multi-Funcation inkject colour Printer</h4>
+          <br/>
+          <p>RS: 5,999.00</p>
+          <br/>
+          <p><del>RS: 7,500.00</del></p>
+          <br/>
+          <button type="button" id="button"><a href="./product.html">BUY</a></button>
+        </div>
+        <div class="box">
+          <img src="../images/Pantum p25500W Monochrome Home.jpg" alt="Pantum p25500W Monochrome Home"/>
+          <h4>Pantum p25500W Monochrome Home Laser Printer</h4>
+          <br/>
+          <p>Rs:5999.00</p>
+          <br />
+          <p><del>RS: 75000.00</del></p>
+          <br/>
+          <button type="button" id="button"><a href="./product.html">BUY</a></button>
+        </div>
+      </div>
+    </div>
+    <!-----------------------------------------New arrival printer-------------------------------------------->
+    <div class="new-arrival" id="arrival" align="center">
+      <h1>New Arrival Printer</h1>
+      <br/>
+      <div class="new-arrival-printer">
+        <img src="../images/Anycubin Kobra 2 3D printer.png" alt="Anycubin Kobra 2 3D printer."/>
+        <h4>Anycubin Kobra 2 3D printer</h4>
+        <h5>RS: 62,999.00</h5>
+        <h6><del>Rs:63,830.00</del></h6>
+        <br/>
+        <button type="button" id="button"><a href="./product.html">BUY</a></button>
+      </div>
+    </div>
+    <!------------------------------------------Explanation of all pages-------------------------------------->
+    <div class="Explanation">
+      <!--------------------------------------------Product page----------------------------------------------->
+      <div class="Details">
+        <div>
+          <h1>Product Page</h1>
+          <p>As we all know, we provide all the information of printer i.e actual price , discount , offer and so on. if you have any interested to
+            get more knowledge about printer then u can got to product page from here.</p>
+          <button type="button" id="button"><a href="./product.html">GO to Product Page</a></button>
+        </div>
+        <!----------------------------------Blog page---------------------------------------->
+        <br />
+        <div>
+          <h1>Blog page</h1>
+          <p>In this page, we provide certain information about technolog that
+            includes the advantage and dis advantage of it. Not only this, we
+            provides the information of printer with very short example to show
+            that how printers are impactful</p>
+          <button type="button" id="button"><a href="./blog.html">Go to Blog Page</a></button>
+        </div>
+        <!-------------------------------Research page-------------------------------->
+        <br />
+        <div>
+          <h1>Research page</h1>
+          <p>In this page, we provie the information about how we grab the idea
+            and concept from other website and applied to ours by just looking
+            at it. Research page contains the comparision of our page and
+            references page.</p>
+          <button type="button" id="button"><a href="./research.html">Go to Research Page</a></button>
+        </div>
+        <!----------------------------------------About Us page---------------------------->
+        <br />
+        <div>
+          <h1>About Us</h1>
+          <p>This page is all about the team members with short description in
+            this page, you all get to know us and what we contribute to make
+            this page and also you all get to know our interest. Furthermore , you
+            can send your message or feedback so that we can get improve on our
+            products.</p>
+          <button type="button" id="button"><a href="./aboutus.html">Go to About Us Page</a></button>
+        </div>
+      </div>
+    </div>
+    <!-------------------------------------footer------------------------------------------------->
+    <footer>
+      <div class="Contact" style="float: left; width: 33.33%">
+        <img src="../images/logo.png" alt="Company logo" height="80px"/>
+        <p><b>Lakeside, Pokhara</b></p>
+        <p><b>Phone number: 061-482384 / 234259</b></p>
+        <p><b>Email: artistic@printer.com.np</b></p>
+      </div>
+      <!----------------------------------------------------------payment section------------------------------------------------------------>
+      <div class="payment" style="float: left; width: 33.33%; text-align: center">
+        <h1>payment</h1>
+        <br/>
+        <p><b>Bank:</b> Rastriya Banijya Bank</p>
+        <p><b>Account number:</b> 3480100027948010</p>
+        <br />
+        <a href="https://www.imepay.com.np/" target="_blank"><img src="../images/imepay.png" alt="Ime pay" height="40px"/></a>
+        <a href="https://khalti.com/" target="_blank"><img src="../images/khalti.png" alt="khalti" height="40px"/></a>
+        <a href="https://esewa.com.np/" target="_blank"><img src="../images/esewa.png" alt="Esewa" height="50px"/></a>
+      </div>
+      <div class="FollowUs" align="right">
+        <!------------------------Social media link---------------------->
+        <h1>Follow Us</h1>
+        <a href="https://www.facebook.com" target="_blank"><img src="../images/facebook.png" alt="facebook" height="50px"/></a>
+        <a href="https://www.instagram.com" target="_blank"><img src="../images/insta.png" alt="instagram" height="50px"/></a>
+        <a href="https://www.youtube.com" target="_blank"><img src="../images/youtube.png" alt="youtube" height="50px"/></a>
+      </div>
+      <div style="clear: both"></div>
+      <p align="center">&copy;Artistic Printer</p>
+    </footer>
+    <script src="../Java Script/script.js"></script>
+  </body>
+</html>

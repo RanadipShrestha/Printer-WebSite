@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artistic Printer</title>
+    <link rel="stylesheet" href="../css/aboutus.css">
+    <header>
+      <h1 align="center">Artistic Printer</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+      </header>
+      <!-------CSS-->
+      <style>
+        ol{
+          list-style-type: decimal;
+          padding-left: 50px;
+        }
+      </style>
+</head>
+<body>
+</div>
+      <section class="aboutus"><!--about us section-->
+       <h1 align="center">About us</h1>
+      </section>
+  <!-------------------------------------------------------------Team Member------------------------------------------>    
+        <div class="Team_member" id="Member">
+         <div class="container">
+          <!-------------Bibash Tamang team leader-------------------->
+           <div class="box">
+             <img id="Bibash"   src="../Team Member/Bibash.jpg" alt="Team Member">
+             <h1>Bibash Tamang</h1>
+             
+             <p>"Hello, I'm Bibash Tamang. I have graduated my high school from prativa secondary school.I am member of this organization.And i do have interest in designing website.</p>
+             <!-----------We have used getElementbyId attribute
+                        of document object through DOM file.  ----------------->
+             <script>
+              // JavaScript to make the image circular
+              var image = document.getElementById("Bibash");
+              image.style.borderRadius = "100%";
+          </script>
+            </div>
+           <div class="box">
+            <!---------------------Ranadip Shrestha team member--------------------->
+            <img id="Ranadip" src="../Team Member/Ranadip.jpg" alt="Team Member">
+            <h1>Ranadip Shrestha</h1>
+            
+            <p>"Hello, I'm Ranadip Shrestha. I have graduated my high school from Kalika secondary school and i enjoy coding.</p>
+            <script>
+              // JavaScript to make the image circular
+              var image = document.getElementById("Ranadip");
+              image.style.borderRadius = "100%";
+          </script>
+          </div>
+          <div class="box">
+            <!---------------------------------Rehaan Gurung team member----------------------------------->
+            <img id="Rehaan" src="../Team Member/Rehaan.jpg" alt="Team Member">
+            <h1>Rehaan Gurung</h1>
+            <p>"Hello, I'm Rehaan Gurung. my dream is to be finest drummer.And also i do have interest in networking site.</p>
+            <script>
+              // JavaScript to make the image circular
+              var image = document.getElementById("Rehaan"); 
+              image.style.borderRadius = "100%";
+          </script>
+          </div>
+          <div class="box">
+            <!------------------------------------Rebina Tulachan team member-------------------------->
+            <img id="Rebina" src="../Team Member/Rebina.jpg" alt="Team Member">
+            <h1>Rebina Tulachan</h1>
+            <p>"Hello, I'm Rebina Tulachan. I have graduate my high school from kaski modernaize school and my hobby is to be model.</p>
+            <script>
+              // JavaScript to make the image circular
+              var image = document.getElementById("Rebina");
+              image.style.borderRadius = "100%";
+          </script>
+          </div>
+          <div class="box">
+            <!------------------------------------Sujima Gurung team member------------------------->
+           <img id="Sujima" src="../Team Member/sujima.jpg" alt="Team Member">
+            <h1>Sujima Gurung</h1>
+            <p>"Hello, I'm Sujima Gurung. I have graduated my high school from kaski modernize schoo. And i want to be a teacher someday.</p>
+            <script>
+              // JavaScript to make the image circular
+              var image = document.getElementById("Sujima");
+              image.style.borderRadius = "100%";
+          </script>
+          </div>
+        </div>
+        </div>
+        <!-------------------------------------------Feedback section-------------------------------------->
+        <section class="Feedback">
+           <h1>Feedback us</h1>
+           <br>
+           <form name="messageForm" onsubmit="validateForm()">
+            <label>First Name:</label>
+              <input type="text" placeholder="First Name" name="fname">
+              <br>
+             <br>
+            <label>Last Name:</label>
+              <input type="text" placeholder="Last Name" name="lname">
+            <br>
+             <br>
+            <label>Email:</label>
+              <input type="email" placeholder="Email" name="email">
+            <br>
+            <br>
+            <label>Gender:</label>
+              <input type="radio" name="genderDetails" value="male" checked>Male
+              <input type="radio" name="genderDetails" value="female" >female
+               <br>
+                <br>
+            <label>Message</label>
+              <br>
+               <textarea name="message" cols="30" rows="10" placeholder="Please enter your Message"></textarea>
+             <br>
+            <input type="submit" value="Submit">
+        </form>
+      </section>
+     <!-----------------JavaScript---------------------->         
+      <script type="text/javascript">
+      function validateForm() {
+        var firstName = document.forms["messageForm"]["fname"].value;
+        var lastName = document.forms["messageForm"]["lname"].value;
+        var email = document.forms["messageForm"]["email"].value;
+        var gender = document.forms["messageForm"]["genderDetails"].value;
+        var messageDetails = document.forms["messageForm"]["message"].value;
+  
+        //alert(messageDetails);
+        if (firstName == "" || lastName == "" || email == "" || messageDetails == "" ) {
+          alert("Empty field!! Please enter the values...");
+        }
+  
+        else {
+          alert("Thank you for your feedback!!!")
+        }
+      }
+    </script>
+    <br>
+    <!--------------------------------All page link ------------------------>
+        <table border="1">
+          <tr>
+            <td>
+              <h1>All Page link</h1>
+              <ol>
+                <li><a href="index.html">Home</a></li>
+                 <li><a href="product.html">Product</a></li>
+                 <li><a href="blog.html">Blog</a></li>
+                 <li><a href="research.html">Research</a></li>
+                 <li><a href="aboutus.html">About Us</a></li>
+              </ol>
+            </td>
+          </tr>
+        </table>
+            <!-----------------------------------------This is the footer section---------------------------------------------------------->
+            <footer>  
+              <div class="Contact" style="float: left; width: 33.33%;">
+                <img src="../images/logo.png" alt="Company logo" height="80px">
+                <p><b>Lakeside, Pokhara</b></p>
+                <p><b>Phone number: 061-482384 / 234259</b></p>
+                <p><b>Email: artistic@printer.com.np</b></p>
+            </div>
+            <!------------------payment section----------------------->
+              <div class="payment" style="float: left; width: 33.33%; text-align: center;">
+                <h1>payment</h1>
+                      <br>
+                      <p><b>Bank:</b> Rastriya Banijya Bank</p>
+                      <p><b>Account number:</b> 3480100027948010</p>
+                      <br>
+                       <a href="https://www.imepay.com.np/" target="_blank"><img src="../images/imepay.png" alt="Ime pay"  height="40px"></a>
+                       <a href="https://khalti.com/" target="_blank"><img src="../images/khalti.png" alt="khalti" height="40px"></a>
+                       <a href="https://esewa.com.np/" target="_blank"><img src="../images/esewa.png" alt="Esewa" height="50px"></a>
+                    </div>
+                    <div class="FollowUs" align="right">
+                        <!------------------------Social media link---------------------->
+                        <h1>Follow Us</h1> 
+                        <a href="https://www.facebook.com" target="_blank"><img src="../images/facebook.png" alt="facebook" height="50px"></a>
+                        <a href="https://www.instagram.com" target="_blank"><img src="../images/insta.png" alt="instagram" height="50px"></a>
+                        <a href="https://www.youtube.com" target="_blank"><img src="../images/youtube.png" alt="youtube" height="50px"></a>
+                      </div>
+                      <div style="clear: both;"></div>
+          <p align="center">&copy;Artistic Printer</p>
+       </footer>
+</body>
+</html>
